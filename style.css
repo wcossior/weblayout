@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    min-height: 100vh;
+    background-color: bisque;
+}
+
+nav{
+    background-color: aqua;
+    line-height: 100px;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    padding-inline: 12px;
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
