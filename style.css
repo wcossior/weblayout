@@ -74,7 +74,7 @@ header {
     }
 }
 
-.slider{
+.slider {
     height: 450px;
     background-color: #50AAF4;
     display: flex;
@@ -83,13 +83,13 @@ header {
     flex-direction: column;
 }
 
-.slider-title{
+.slider-title {
     font-size: 30px;
     font-weight: 600;
     color: white;
 }
 
-.btn-blog{
+.btn-blog {
     margin-top: 50px;
     padding: 20px;
     font-size: 16px;
@@ -99,74 +99,75 @@ header {
     cursor: pointer;
 }
 
-.btn-blog:hover{
+.btn-blog:hover {
     background-color: #dbdbdb;
 }
 
-.content{
+.content {
     margin: auto;
     margin-top: 50px;
     width: 70%;
     display: flex;
 }
 
-.main-articles-title{
+.main-articles-title {
     font-size: 30px;
     font-weight: 600;
     align-self: center;
 }
 
-.article{
+.article {
     display: flex;
     margin-top: 50px;
 }
 
-.article-info{
+.article-info {
     display: flex;
     flex-direction: column;
     margin-left: 35px;
 }
 
-.article-img{
+.article-img {
     height: 180px;
 }
 
-.article-title{
+.article-title {
     font-size: 25px;
     font-weight: 600;
 }
 
-.publishing-time{
+.publishing-time {
     margin-top: 20px;
     opacity: 50%;
     font-size: 18px;
 }
 
-.read-more{
+.read-more {
     margin-top: 20px;
     font-size: 18px;
 }
 
-.articles-container{
+.articles-container {
     display: flex;
     flex: 2;
     flex-direction: column;
 }
 
-.sidebar{
+.sidebar {
     display: flex;
     flex: 1;
     flex-direction: column;
 }
-.create-article{
+
+.create-article {
     display: flex;
     flex-direction: column;
-    background-color:   #f8f6f8;
+    background-color: #f8f6f8;
     padding: 35px;
     margin-bottom: 50px;
 }
 
-.create-article span{
+.create-article span {
     margin-bottom: 25px;
     text-align: center;
     text-transform: uppercase;
@@ -174,7 +175,7 @@ header {
     font-weight: 600;
 }
 
-.btn-create-article{
+.btn-create-article {
     margin-top: 25px;
     background-color: #1c9518;
     color: white;
@@ -186,31 +187,31 @@ header {
     cursor: pointer;
 }
 
-.btn-create-article:hover{
+.btn-create-article:hover {
     background-color: #1fa31a;
 }
 
-.search-box{
+.search-box {
     display: flex;
     flex-direction: column;
-    background-color:   #f8f6f8;
+    background-color: #f8f6f8;
     padding: 35px;
 }
 
-.search-box h3{
+.search-box h3 {
     text-align: center;
     font-size: 20px;
     text-transform: uppercase;
     margin-bottom: 25px;
 }
 
-.search-box span{
+.search-box span {
     margin-top: 25px;
     margin-bottom: 25px;
     font-size: 18px;
 }
 
-.btn-search{
+.btn-search {
     background-color: black;
     color: white;
     text-transform: uppercase;
@@ -221,16 +222,23 @@ header {
     cursor: pointer;
 }
 
-.btn-search:hover{
+.btn-search:hover {
     background-color: rgb(37, 37, 37)
 }
 
-#input-search{
+#input-search {
     margin-bottom: 25px;
     padding: 12px;
     font-size: 18px;
 }
 
-hr{
+hr {
     opacity: 40%;
+}
+
+footer {
+    background-color: #f8f6f8;
+    text-align: center;
+    padding: 35px 0px;
+    margin-top: 50px;
 }
