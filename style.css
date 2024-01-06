@@ -107,6 +107,7 @@ header {
     margin: auto;
     margin-top: 50px;
     width: 70%;
+    display: flex;
 }
 
 .main-articles-title{
@@ -145,4 +146,15 @@ header {
     font-size: 18px;
 }
 
+.articles-container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
 
+.sidebar{
+    display: flex;
+    flex: 1;
+    height: 500px;
+    background-color: aquamarine;
+}
