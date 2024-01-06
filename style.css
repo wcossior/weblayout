@@ -103,3 +103,46 @@ header {
     background-color: #dbdbdb;
 }
 
+.content{
+    margin: auto;
+    margin-top: 50px;
+    width: 70%;
+}
+
+.main-articles-title{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.article{
+    display: flex;
+    margin-top: 50px;
+}
+
+.article-info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+}
+
+.article-img{
+    height: 180px;
+}
+
+.article-title{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.publishing-time{
+    margin-top: 20px;
+    opacity: 50%;
+    font-size: 18px;
+}
+
+.read-more{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
