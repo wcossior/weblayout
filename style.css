@@ -8,7 +8,7 @@
 body {
     font-family: 'Lato', sans-serif;
     min-height: 100vh;
-    background-color: bisque;
+    background-color: white;
 }
 
 nav {
@@ -28,6 +28,7 @@ nav ul li {
 }
 
 nav ul li a {
+    font-size: 18px;
     text-decoration: none;
     color: rgb(12, 12, 12);
 }
@@ -37,6 +38,7 @@ header {
     background-color: white;
     display: flex;
     justify-content: center;
+    border-bottom: 1px solid #c2c2c2;
 }
 
 .center {
@@ -52,7 +54,7 @@ header {
 }
 
 .brand {
-    font-size: 24px;
+    font-size: 30px;
     padding-left: 15px;
 }
 
@@ -71,3 +73,33 @@ header {
         transform: rotate(360deg);
     }
 }
+
+.slider{
+    height: 450px;
+    background-color: #50AAF4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.slider-title{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn-blog{
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 0;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.btn-blog:hover{
+    background-color: #dbdbdb;
+}
+
