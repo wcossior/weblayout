@@ -10,6 +10,9 @@ body {
     min-height: 100vh;
     background-color: white;
 }
+header{
+    overflow-x: hidden;
+}
 
 nav {
     background-color: white;
@@ -107,6 +110,7 @@ header {
     margin: auto;
     margin-top: 50px;
     width: 70%;
+    flex-wrap: wrap;
     display: flex;
 }
 
@@ -119,6 +123,7 @@ header {
 .article {
     display: flex;
     margin-top: 50px;
+    min-width: 500px;
 }
 
 .article-info {
@@ -157,6 +162,7 @@ header {
     display: flex;
     flex: 1;
     flex-direction: column;
+    margin-left: 65px;
 }
 
 .create-article {
@@ -241,4 +247,24 @@ footer {
     text-align: center;
     padding: 35px 0px;
     margin-top: 50px;
+}
+
+
+@media (max-width: 1278px) {
+    .articles-container{
+        max-width: 500px;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar{
+        width: 100%;
+        min-width: 350px;
+        max-width: 450px;
+        margin-top: 50px;
+        margin-left: 0;
+    }
 }
