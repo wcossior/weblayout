@@ -10,9 +10,6 @@ body {
     min-height: 100vh;
     background-color: white;
 }
-header{
-    overflow-x: hidden;
-}
 
 nav {
     background-color: white;
@@ -42,6 +39,7 @@ header {
     display: flex;
     justify-content: center;
     border-bottom: 1px solid #c2c2c2;
+    overflow-x: hidden;
 }
 
 .center {
@@ -84,6 +82,8 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-x: hidden;
+    text-align: center;
 }
 
 .slider-title {
@@ -266,5 +266,11 @@ footer {
         max-width: 450px;
         margin-top: 50px;
         margin-left: 0;
+    }
+}
+
+@media (max-width: 588px) {
+    .slider{
+        min-width: 588px;
     }
 }
