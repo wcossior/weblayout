@@ -9,6 +9,8 @@ body {
     font-family: 'Lato', sans-serif;
     min-height: 100vh;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
@@ -95,7 +97,6 @@ header {
 .btn-blog {
     margin-top: 50px;
     padding: 20px;
-    font-size: 16px;
     text-transform: uppercase;
     border: 0;
     border-radius: 2px;
@@ -144,12 +145,10 @@ header {
 .publishing-time {
     margin-top: 20px;
     opacity: 50%;
-    font-size: 18px;
 }
 
 .read-more {
     margin-top: 20px;
-    font-size: 18px;
 }
 
 .articles-container {
@@ -186,7 +185,6 @@ header {
     background-color: #1c9518;
     color: white;
     text-transform: uppercase;
-    font-size: 18px;
     padding: 20px;
     border: 0;
     font-weight: 600;
@@ -214,14 +212,12 @@ header {
 .search-box span {
     margin-top: 25px;
     margin-bottom: 25px;
-    font-size: 18px;
 }
 
 .btn-search {
     background-color: black;
     color: white;
     text-transform: uppercase;
-    font-size: 18px;
     padding: 20px;
     border: 0;
     font-weight: 600;
@@ -235,7 +231,6 @@ header {
 #input-search {
     margin-bottom: 25px;
     padding: 12px;
-    font-size: 18px;
 }
 
 hr {
@@ -243,10 +238,10 @@ hr {
 }
 
 footer {
+    margin-top: 50px;
     background-color: #f8f6f8;
     text-align: center;
     padding: 35px 0px;
-    margin-top: 50px;
 }
 
 
@@ -267,10 +262,50 @@ footer {
         margin-top: 50px;
         margin-left: 0;
     }
+    .form{
+        max-width: 450px;
+        width: 100%;
+    }
 }
 
 @media (max-width: 588px) {
     .slider{
         min-width: 588px;
     }
+}
+
+/* Styles for Form page */
+
+.form{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h1{
+    margin-bottom: 20px;
+}
+
+.form input, textarea{
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    max-width: 450px;
+}
+
+.btn-form {
+    margin-top: 16px;
+    background-color: #1c9518;
+    color: white;
+    text-transform: uppercase;
+    padding: 20px;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+    min-width: 200px;
+}
+
+.btn-form-container{
+    max-width: 450px;
+    text-align: center;
 }
