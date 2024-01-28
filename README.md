@@ -2,6 +2,8 @@
 
 This project is a simple web design exercise created to practice HTML and CSS. It includes multiple pages with a common navigation structure, styles, and layout.
 
+You can check it out : [HERE](https://wcossior.github.io/weblayout/)
+
 ## Features
 
 - **Responsive Design:** The project is designed to be responsive and adapt to different screen sizes.
